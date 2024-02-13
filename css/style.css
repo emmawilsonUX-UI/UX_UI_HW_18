@@ -1,0 +1,113 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+
+#navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+
+#navigation {
+    display: flex;
+    width: 50%;
+    align-items: right;
+    justify-content: space-evenly;
+  }
+
+#navigation p {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+.heroImg {
+    background-image: url("Images\Hero_1.png");
+    height: 50%;
+    padding:0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #2f3b2c
+    padding: 10px;
+    text-align: right;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+footer ul li {
+    padding: 0 10px;
+}
+
+#adventure {
+
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#adventure h2 {
+ text-align:center;
+ font-size:38px;
+ margin-bottom:100px;
+
+}
+
+h2 .yellow {
+    color:#2F3B2C;
+    font-size: 80%;
+    display: block;
+    font-weight:normal;
+}
+
+#adventure .adventure-card {
+    background-image: url("images - Copy/Travel Bug_2.png");
+    background-size: cover;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.adventure-card .card-items {
+    margin-left: 40px;
+    margin-right: 60px;
+    color: white;
+}
+
+.btn-primary {
+    background-color:#2F3B2C;
+    border-color: #587551;
+    border-radius:0;
+}
+
+.btn-primary:hover {
+    background-color: #2F3B2C;
+    border-color: #587551;
+}
+
+.adventure-card .card-items .card-icon {
+    width: 75%
+}
